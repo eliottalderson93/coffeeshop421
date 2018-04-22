@@ -1,4 +1,182 @@
 *{
     padding:0px;
     margin:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
 }
+/* the following styles are word highlighters */
+.orange{
+    color:orange;
+}
+.underline{
+    text-decoration-style: solid;
+}
+.black{
+    color:black;
+}
+.white{
+    color:white;
+}
+/* the following styles are for the wrapper*/
+.wrapper{
+    width:1000px; /*default size 1000x1000*/
+    height:1000px;
+    background-color:#245076;
+    margin:0px auto;
+}
+    /*The following will style the header*/
+    .header{
+        height:125px;
+        width:1000px;
+        background-color:#245076;
+    }
+        .header img{
+            height:125px;
+            width:444px;
+            display:inline-block;
+        }
+        .header p{
+            Font-size: 75%;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 415px;
+            position:absolute;
+        }
+        .search_bar{
+            height:50px;
+            background-color:Gray;
+            width: 250px;
+            display:inline-block;
+            margin-left:285px;
+            margin-top:30px;
+            vertical-align:top;
+            border-radius:25px;
+        }
+            .search_bar input{
+                vertical-align:top;
+                margin-top:13px;
+                display:inline-block;
+                margin-left:20px;
+                height:25px;
+                width: 160px;
+                border: black solid 1px;
+                border-radius: 15px;
+            }
+            .go{
+                vertical-align:top;
+                margin-top:13px;
+                display:inline-block;
+                background-color:#245076;
+                height:25px;
+                width:35px;
+                border: black solid 1px;
+                border-radius:3px;
+                margin-left:16px;
+            }
+
+    /*The following will style the navbar*/
+    .navbar{
+        width:750px;
+        height:30px;
+        background-color:darkblue;
+        margin: 0px auto;
+        border-radius:5px;
+    }
+        .navbar ul{
+            list-style-type: none;
+            margin: 5px 0px 0px 5px;
+            padding: 0;
+        }
+        .navbar ul li{
+            display: inline;
+            margin:35px;
+        }
+    /*The following will style the menu and upper words*/
+    .upper_content{
+        width:750px;
+        height: 450px;
+        background-color:teal;
+        margin: 0px auto;
+    }
+        .menu{
+            display:inline-block;
+            padding:10px;
+            text-align:Center;
+            width:200px;
+            margin-top: 100px;
+
+        }
+            .menu ul{
+                margin-left:0px;
+                
+            }
+            .menu ul li{
+                color:white;
+            }
+        .right_upper_content{
+            display:inline-block;
+            text-align:center;
+            width: 500px;
+            vertical-align:top;
+            padding:10px;
+        }
+        .right_upper_content p{
+            vertical-align:top;
+            color:orange;
+            margin: 0px 0px 10px 0px
+        }
+    /*The following will style the lower content */
+    .lower_content{
+        width:1000px;
+        height:250px;
+        background-color:white;
+        padding:10px;
+    }
+        .lower_content div{
+            display:inline-block;
+            width:450px;
+            margin:5px;
+            padding:17px;
+            border-top:blue solid 5px;
+        }
+        .lower_content p{
+            color:black;
+            text-align:Center;
+        }
+        .lower_content h1{
+            color:black;
+            text-align:center;
+        }
+        .lower_content ul li{
+            color:lightblue;
+            margin-left:50px;
+            margin-right:50px;
+            text-align:center;
+        }
+    /*The following will style the footer*/
+    .footer{
+        width:1000px;
+        height:100px;
+        background-color:#245076;
+        margin:auto;
+    }
+        .footer ul{
+            list-style-type: none;
+            margin: 5px 0px 0px 5px;
+            padding: 0;
+            margin:auto;
+            margin-top:45px;
+        }
+        .footer ul li{
+            display: inline;
+            margin:35px;
+            margin-left:150px;
+            color:darkblue;
+        }
+        .footer p{
+            position:absolute;
+            vertical-align:bottom;
+            margin-top: 10px;
+            margin-left: 400px;
+        }
+
